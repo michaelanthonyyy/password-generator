@@ -10,7 +10,10 @@ function writePassword() {
 // declare arrays for each character set (multiple arrays or one nested array)
 // arrays should be made to include options for capital letters, lower case, numbers, and special characters
 // these arrays are for possible input choices for user when they go through following prompts
-
+var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var lowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+var numbers = [0,1,2,3,4,5,6,7,8,9];
+var specialCharacters = ["!",'"',"#","$","%","&","'",")","(","*","+",",","-",".","/",":",";","<",">","=","?","@","[","]","^","`","{","}","|","~"];
 
 // create prompts that set presidence for remainder of code. prompts should be length > lower > upper > numbers > special characters
 // this is going to be done using prompt functions. each character type has its own prompt
