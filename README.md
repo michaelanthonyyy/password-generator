@@ -6,7 +6,7 @@ An employee with access to sensitive data wanted a way to randomly generate pass
 <br>
 
 ## Site Picture
-![Site](Assets/Images/03-javascript-homework.demo.png)
+![Site](Assets/03-javascript-homework.demo.png)
 <br>
 <br>
 
